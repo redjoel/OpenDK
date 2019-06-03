@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class DasProfilTableSeeder extends Seeder
+class DasProfilLuakTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -26,7 +26,7 @@ class DasProfilTableSeeder extends Seeder
                 'email' => 'admin@mail.com',
                 'tahun_pembentukan' => 1990,
                 'dasar_pembentukan' => 'PEREGUB No 4 1990',
-                'nama_camat' => 'Suwila Erpina S.P, M.Si',
+                'nama_camat' => 'H. Hadi Fathurrahman, S.Sos, M.AP',
                 'sekretaris_camat' => 'Drs. Zaenal Abidin',
                 'kepsek_pemerintahan_umum' => 'Musyayad, S.Sos',
                 'kepsek_kesejahteraan_masyarakat' => 'Suhartono, S.Sos',

@@ -4,24 +4,27 @@ use Illuminate\Database\Seeder;
 
 class DasProfilTableSeeder extends Seeder
 {
+
     /**
-     * Run the database seeds.
+     * Auto generated seed file
      *
      * @return void
      */
     public function run()
     {
+
+
         \DB::table('das_profil')->delete();
 
         \DB::table('das_profil')->insert(array (
             0 =>
             array (
                 'id' => 1,
-                'provinsi_id' => '13',
-                'kabupaten_id' => '1308',
-                'kecamatan_id' => '1308020',
-                'alamat' => 'Jl. Koperasi No. 1, Kab Lombok Barat, Provinsi Nusa Tenggara Barat',
-                'kode_pos' => '83653',
+                'provinsi_id' => '64',
+                'kabupaten_id' => '6407',
+                'kecamatan_id' => '640720',
+                'alamat' => 'Jl. Nihin RT.005 Sekolaq Darat',
+                'kode_pos' => '75764',
                 'telepon' => '021-2345234',
                 'email' => 'admin@mail.com',
                 'tahun_pembentukan' => 1990,
@@ -41,5 +44,7 @@ class DasProfilTableSeeder extends Seeder
                 'updated_at' => '2018-07-19 01:29:57',
             ),
         ));
+
+
     }
 }
