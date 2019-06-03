@@ -57,7 +57,7 @@ class UserController extends Controller
             }
 
             Sentinel::findRoleBySlug( $request->role )->users()->attach( $user );
-           
+
             flash()->success( trans('message.user.create-success') );
             return redirect()->route( 'setting.user.index' );
 
@@ -115,7 +115,7 @@ class UserController extends Controller
                 Sentinel::findRoleBySlug( $user_find->roles()->first()->slug )->users()->detach($user);
                 Sentinel::findRoleBySlug( $request->role )->users()->attach( $user );
             }
-            
+
             flash()->success( trans('message.user.update-success') );
             return redirect()->route( 'setting.user.index' );
         } catch (Exception $e) {
@@ -140,7 +140,7 @@ class UserController extends Controller
             $user->update( [
                 'password'  => bcrypt($request->password)
             ] );
-            
+
             flash()->success( trans('message.user.update-success') );
             return redirect()->route( 'setting.user.index' );
         } catch (Exception $e) {
@@ -161,7 +161,7 @@ class UserController extends Controller
             $user = User::findOrFail( $id );
             $user->status = 0;
             $user->save();
-            
+
             flash()->success( trans('general.suspend-success') );
             return redirect()->route( 'setting.user.index' );
 
@@ -183,7 +183,7 @@ class UserController extends Controller
             $user = User::findOrFail( $id );
             $user->status = 1;
             $user->save();
-            
+
             flash()->success( trans('general.active-success') );
             return redirect()->route( 'setting.user.index' );
 
@@ -218,7 +218,7 @@ class UserController extends Controller
                 $edit_url = route('setting.user.edit', $user->id );
                 $data['edit_url']   = $edit_url;
             }
-            
+
             return view('forms.action', $data);
         })
         ->make(true);

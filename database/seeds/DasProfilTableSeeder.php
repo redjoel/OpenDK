@@ -12,24 +12,24 @@ class DasProfilTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('das_profil')->delete();
-        
+
         \DB::table('das_profil')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
-                'provinsi_id' => '11',
-                'kabupaten_id' => '1107',
-                'kecamatan_id' => '1107062',
-                'alamat' => 'Jl. Koperasi No. 1, Kab Lombok Barat, Provinsi Nusa Tenggara Barat',
-                'kode_pos' => '83653',
+                'provinsi_id' => '64',
+                'kabupaten_id' => '6407',
+                'kecamatan_id' => '640720',
+                'alamat' => 'Jl. Nihin RT.005 Sekolaq Darat',
+                'kode_pos' => '75764',
                 'telepon' => '021-2345234',
                 'email' => 'admin@mail.com',
                 'tahun_pembentukan' => 1990,
                 'dasar_pembentukan' => 'PEREGUB No 4 1990',
-                'nama_camat' => 'H. Hadi Fathurrahman, S.Sos, M.AP',
+                'nama_camat' => 'Suwila Erpina S.P, M.Si',
                 'sekretaris_camat' => 'Drs. Zaenal Abidin',
                 'kepsek_pemerintahan_umum' => 'Musyayad, S.Sos',
                 'kepsek_kesejahteraan_masyarakat' => 'Suhartono, S.Sos',
@@ -44,7 +44,7 @@ class DasProfilTableSeeder extends Seeder
                 'updated_at' => '2018-07-19 01:29:57',
             ),
         ));
-        
-        
+
+
     }
 }
