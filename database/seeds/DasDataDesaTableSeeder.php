@@ -20,15 +20,9 @@ class DasDataDesaTableSeeder extends Seeder
             0 =>
             array (
                 'id' => 1,
-<<<<<<< HEAD
                 'desa_id' => '6407202007',
                 'kecamatan_id' => '6402081',
                 'nama' => 'SEKOLAQ DARAT',
-=======
-                'desa_id' => '1308020001',
-                'kecamatan_id' => '1308020',
-                'nama' => 'MUNGO',
->>>>>>> opendk/master
                 'website' => NULL,
                 'luas_wilayah' => NULL,
                 'created_at' => NULL,
@@ -37,15 +31,9 @@ class DasDataDesaTableSeeder extends Seeder
             1 =>
             array (
                 'id' => 2,
-<<<<<<< HEAD
                 'desa_id' => '6407202008',
                 'kecamatan_id' => '6402081',
                 'nama' => 'LELENG',
-=======
-                'desa_id' => '1308020002',
-                'kecamatan_id' => '1308020',
-                'nama' => 'ANDALEH',
->>>>>>> opendk/master
                 'website' => NULL,
                 'luas_wilayah' => NULL,
                 'created_at' => NULL,
@@ -54,15 +42,9 @@ class DasDataDesaTableSeeder extends Seeder
             2 =>
             array (
                 'id' => 3,
-<<<<<<< HEAD
                 'desa_id' => '6407202001',
                 'kecamatan_id' => '6402081',
                 'nama' => 'SEKOLAQ MULIAQ',
-=======
-                'desa_id' => '1308020003',
-                'kecamatan_id' => '1308020',
-                'nama' => 'SUNGAI KAMUYANG',
->>>>>>> opendk/master
                 'website' => NULL,
                 'luas_wilayah' => NULL,
                 'created_at' => NULL,
@@ -71,7 +53,6 @@ class DasDataDesaTableSeeder extends Seeder
             3 =>
             array (
                 'id' => 4,
-<<<<<<< HEAD
                 'desa_id' => '6407202002',
                 'kecamatan_id' => '6402081',
                 'nama' => 'SEKOLAQ MULIAQ',
@@ -119,11 +100,6 @@ class DasDataDesaTableSeeder extends Seeder
                 'desa_id' => '6407202006',
                 'kecamatan_id' => '6402081',
                 'nama' => 'SUMBER REJO',
-=======
-                'desa_id' => '1308020004',
-                'kecamatan_id' => '1308020',
-                'nama' => 'TANJUANG ARO SIKABU-KABU PD. PANJANG',
->>>>>>> opendk/master
                 'website' => NULL,
                 'luas_wilayah' => NULL,
                 'created_at' => NULL,
